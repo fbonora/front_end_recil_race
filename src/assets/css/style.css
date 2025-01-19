@@ -1,0 +1,156 @@
+/* Reset di base */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .navbar .nav-link {
+    color: #f8f9fa !important;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #dcdcdc !important;
+  }
+  
+  /* Sezione dei filtri */
+  .gare-filtri {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .gare-filtri input,
+  .gare-filtri select,
+  .gare-filtri button {
+    margin-bottom: 10px;
+  }
+  
+  .gare-filtri button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gare-filtri button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Scheda gara */
+  .gara-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px 0;
+    transition: transform 0.2s;
+  }
+  
+  .gara-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .gara-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .gara-card h3 {
+    font-size: 1.25rem;
+    color: #007bff;
+  }
+  
+  .gara-card p {
+    font-size: 0.9rem;
+    color: #555555;
+  }
+  
+  .gara-card .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .gara-card .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dettagli gara */
+  .dettaglio-gara {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dettaglio-gara h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .dettaglio-gara p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsività */
+  @media (max-width: 768px) {
+    .gara-card {
+      margin: 10px 0;
+    }
+  
+    .gare-filtri .row > div {
+      margin-bottom: 10px;
+    }
+  }
+  
