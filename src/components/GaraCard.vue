@@ -25,7 +25,7 @@
         <p class="card-text">
           <strong>Descrizione:</strong> {{ gara.description }}
         </p>
-        <router-link :to="`/gara/${gara._id}`" class="btn btn-primary">
+        <router-link :to="`/gare/${gara._id}`" class="btn btn-primary">
           Dettagli Gara
         </router-link>
       </div>
