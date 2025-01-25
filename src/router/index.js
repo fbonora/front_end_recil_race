@@ -5,6 +5,7 @@ import Registrazione from '../views/Registrazione.vue';
 import ElencoGare from '../views/ElencoGare.vue';
 import DettaglioGara from '../views/DettaglioGara.vue';
 import GarePerMese from '../views/GarePerMese.vue';
+import PollsView from '../views/PollsView.vue';
 
 const routes = [
   { path: '/', component: Home },
@@ -12,6 +13,7 @@ const routes = [
   { path: '/registrazione', component: Registrazione },
   { path: '/elenco-gare', component: ElencoGare },
   { path: '/gare/:id', component: DettaglioGara },
+  { path: '/sondaggi', component: PollsView },
   {
     path: '/gare-mese/:month',
     name: 'GarePerMese',

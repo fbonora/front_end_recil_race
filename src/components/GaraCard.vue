@@ -1,5 +1,5 @@
 <template>
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 100%;">
       <img
         src="../assets/img/race.jpg"
         class="card-img-top"

@@ -1,4 +1,4 @@
-/* Reset di base */
+/* Reset di base
 body, h1, h2, h3, p, ul, ol {
     margin: 0;
     padding: 0;
@@ -10,10 +10,10 @@ body, h1, h2, h3, p, ul, ol {
     line-height: 1.6;
     background-color: #f8f9fa;
     color: #343a40;
-  }
+  } */
   
   /* Navbar */
-  .navbar {
+  /* .navbar {
     background-color: #007bff;
   }
   
@@ -29,10 +29,10 @@ body, h1, h2, h3, p, ul, ol {
   
   .navbar .nav-link:hover {
     color: #dcdcdc !important;
-  }
+  } */
   
   /* Sezione dei filtri */
-  .gare-filtri {
+  /* .gare-filtri {
     background-color: #ffffff;
     padding: 15px;
     border-radius: 5px;
@@ -57,10 +57,10 @@ body, h1, h2, h3, p, ul, ol {
   
   .gare-filtri button:hover {
     background-color: #0056b3;
-  }
+  } */
   
   /* Scheda gara */
-  .gara-card {
+  /* .gara-card {
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     background-color: #ffffff;
@@ -104,10 +104,10 @@ body, h1, h2, h3, p, ul, ol {
   
   .gara-card .btn:hover {
     background-color: #0056b3;
-  }
+  } */
   
   /* Dettagli gara */
-  .dettaglio-gara {
+  /* .dettaglio-gara {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
@@ -123,10 +123,10 @@ body, h1, h2, h3, p, ul, ol {
   .dettaglio-gara p {
     font-size: 1rem;
     margin-bottom: 10px;
-  }
+  } */
   
   /* Footer */
-  .footer {
+  /* .footer {
     background-color: #343a40;
     color: #f8f9fa;
     text-align: center;
@@ -142,9 +142,9 @@ body, h1, h2, h3, p, ul, ol {
   .footer a:hover {
     text-decoration: underline;
   }
-  
+   */
   /* Responsività */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .gara-card {
       margin: 10px 0;
     }
@@ -153,4 +153,4 @@ body, h1, h2, h3, p, ul, ol {
       margin-bottom: 10px;
     }
   }
-  
+   */

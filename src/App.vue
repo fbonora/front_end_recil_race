@@ -1,10 +1,8 @@
 <template>
   <div id="app">
-
-    
     <Navbar />
     <!-- Main Content -->
-    <main class="py-4 hero-bg text-white">
+    <main class="hero-bg text-white">
       <router-view />
     </main>
 
@@ -37,7 +35,12 @@ main {
 }
 
 .hero-bg {
-    background-image: url(assets/img/slider-2.png);
+    background-image: url(assets/img/Gaia.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 footer {

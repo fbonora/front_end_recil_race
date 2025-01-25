@@ -1,5 +1,5 @@
 <template>
-    <div class="container my-5">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6">
           <h2 class="text-center mb-4">Registrazione</h2>
@@ -79,10 +79,4 @@
     },
   };
   </script>
-  
-  <style scoped>
-  .container {
-    margin-top: 50px;
-  }
-  </style>
   
